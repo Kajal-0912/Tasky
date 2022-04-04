@@ -174,6 +174,6 @@ const saveEditchanges = (event) => {
     taskDescription.setAttribute("contenteditable","false");
     taskType.setAttribute("contenteditable","false");
     submitButton.removeAttribute("onclick");
-    submitButton.innerHTML = "Open Task";
+    submitButton.innerHTML = "Open-Task";
 
 };
